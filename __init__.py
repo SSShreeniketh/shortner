@@ -1,3 +1,3 @@
-from .shortner import generate_short_url
+from .generator import generate_short_url  # Use correct filename
 
-__all__ = ["generate_short_url"]
+_all_ = ["generate_short_url"]
